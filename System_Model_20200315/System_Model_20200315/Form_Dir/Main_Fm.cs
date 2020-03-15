@@ -16,5 +16,10 @@ namespace System_Model_20200315.Form_Dir
         {
             InitializeComponent();
         }
+
+        private void Main_Fm_Shown(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }
